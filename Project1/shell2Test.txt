@@ -1,0 +1,9 @@
+ls -l
+mkdir test
+ls -l
+gcc -o wait wait.c
+./wait &
+cd test
+ls -l
+
+exit
